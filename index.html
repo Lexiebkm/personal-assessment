@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="./css/mystyle.css" rel="stylesheet">
+	<script type="module" src="./js/main.js" defer></script>
+</head>
+<body>
+	<section class="title">
+		<h1>Personality Assesment</h1>
+	</section>
+	<div id="container" class="container">
+		<form id="formqa">
+			<fieldset>
+				<legend>Questions</legend>
+				<div>
+					<label id="questionnumber" name="questionnumber"></label>
+					<label for="answer" id="questionname" name="questionname"></label>
+					<select id="answer" name="answer">
+					</select>
+				</div>
+			</fieldset>
+
+			<div>
+				<output id="useranswer">You picked :</output>
+			</div>
+		</form>
+
+		<div class="divsubmit" id="divsubmit">
+			<button class="settle" id="settle" title="Click this button to pick your answer and proceed to the next question"
+			>
+				Ok
+			</button>
+		</div>
+
+		<div class="divnewtest" id="divnewtest" hidden>
+			<h4>Thank you. Here are your answers :</h4>
+			<div  class="listuseranswer" id="listuseranswer"></div>			
+			<button class="newtest" id="newtest" title="Click this button to take a new test">
+				New Test
+			</button>
+		</div>		
+	</div>	
+</body>
+</html>

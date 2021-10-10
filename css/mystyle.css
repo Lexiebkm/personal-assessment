@@ -1,0 +1,93 @@
+.container {
+	margin: 1em 0;
+}
+
+section.title {
+	background-color: steelblue; /*darkturquoise;*/
+	color: honeydew;
+	box-sizing: border-box;
+	padding: 0.1em 1em;
+}
+
+form {
+	background-color: aliceblue;
+}
+
+fieldset {
+	background-color: beige;	
+}
+
+legend, label {
+	font: 1em/1.2 Arial, Helvetica, sans-serif;
+}
+
+legend {
+	margin: 1em;
+}
+
+label#questionnumber, label#questionname {
+	font: 1em/1.2 sans-serif;
+}
+
+label#questionnumber {
+	display: block;
+	color: purple;
+}
+
+
+label#questionname {
+	color: blue
+}
+
+
+select {
+  width : 200px;
+  box-sizing: border-box;
+  padding: 0.5em;
+  margin: 0.5em
+}
+
+output {
+	//border: 1px solid blue;
+	background-color: cyan;	
+	color: rebeccapurple;
+	display: flex;
+	font: 1em/1.2 sans-serif;
+	font-style: italic;
+	font-weight: bold;	
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.title {
+	background-color: yellow;
+	color: blue;
+}
+
+button {
+	width: 100px;
+	box-sizing: border-box;
+	background-color: blue;
+	color: yellow;
+	border-radius: 10px;
+	font: 1em/1.2 sans-serif;
+	margin: 1em;
+	padding: .2em;
+}
+
+.divnewtest {
+	box-sizing: border-box;
+	background-color: aliceblue;
+	font: 1em/1.2 sans-serif;	
+}
+
+.divnewtest > h4 {
+	padding: 1em 1em 0 1em;
+	color: steelblue;
+}
+
+div.listuseranswer > label {
+	display: block;
+	color: blue;
+	padding: 0.2em 1em;
+}
